@@ -3,63 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[T]打A爆弹</title>
+    <title>打A爆弹(Plan1)</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f0f0f0;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f5f5f5;
         }
         
         h1 {
+            color: #e74c3c;
             text-align: center;
-            color: #1a73e8;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
         }
         
         .content {
-            padding: 20px;
             background-color: white;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #3498db;
+            margin: 20px 0 10px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .description, .details {
+            margin-bottom: 20px;
+        }
+        
+        .member-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .member-list li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+        .member-list li:last-child {
+            border-bottom: none;
         }
         
         .back-button {
             display: block;
             width: 150px;
-            margin: 20px auto;
+            margin: 30px auto 0;
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #3498db;
             color: white;
             text-align: center;
             text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s;
         }
         
         .back-button:hover {
-            background-color: #0056b3;
+            background-color: #2980b9;
+        }
+        
+        /* 去除默认的 br 换行影响 */
+        br {
+            display: none;
         }
     </style>
 </head>
 <body>
     <h1>打A爆弹(Plan1)</h1>
     <div class="content">
-        <p>描述：</p>
-            <br>适用于全/强起局。
-        <p>细节：</p>
-       
-        
-           
-<br>成员：【道具位】（包匪）、【A1默认甲】、【A1默认乙】、【A2默认】、（【自由人】）。
- 
-<br>【道具位】自己买一颗烟、拿默认队员两颗烟，其他看情况。开局在A1等候默认成员信息，待A1、A2烟散，交出跳台、链接、警家烟，等烟爆开后组织A1、A2成员进点。进点后，应充当补枪手，跟随两名A1默认进点打补枪，清完点后下A1包，然后回A1。
- 
-<br>【A1默认甲】开局在A门架好点，防止CT前压，等A1火、A1烟褪去提示【道具位】爆弹，然后等会待【道具位】提示后进点。另外，如果A1给烟了，可以混到A门里的花瓶上架点，拿更多信息。进点时，应先搜二楼下，再搜死点。如果这时还存活，可以到A长椅架链接。
- 
-<br>【A1默认乙】开局在A匪口高架上架住A门，防止CT前压，等A1火、A1烟褪去提示【道具位】爆弹，然后等会待【道具位】提示后进点。进点时，应先上匪跳，搜三明治，跳到三明治搜忍者位。如果这时还存活，可以到警亭架警家。
-<br>【A2默认】开局任务是慢摸A2，并防止CT前压，等A2烟褪去提示【道具位】爆弹，然后待【道具位】提示后进点。进点时，应先搜二楼上，后应充当补枪手，随两名A1默认进点打补枪。如果下包后还存活可以藏死点或忍者位。
-       
+        <h2>概述</h2>
+        <div class="section">
+            <div class="description">
+                <p><strong>描述：</strong>适用于全/强起局。</p>
+            </div>
+            
+            <div class="details">
+                <p><strong>细节：</strong></p>
+                <ul class="member-list">
+                    <li>成员：【道具位】（包匪）、【A1默认甲】、【A1默认乙】、【A2默认】、（【自由人】）。</li>
+                    <li>【道具位】自己买一颗烟、拿默认队员两颗烟，其他看情况。开局在A1等候默认成员信息，待A1、A2烟散，交出跳台、链接、警家烟，等烟爆开后组织A1、A2成员进点。进点后，应充当补枪手，跟随两名A1默认进点打补枪，清完点后下A1包，然后回A1。</li>
+                    <li>【A1默认甲】开局在A门架好点，防止CT前压，等A1火、A1烟褪去提示【道具位】爆弹，然后等会待【道具位】提示后进点。另外，如果A1给烟了，可以混到A门里的花瓶上架点，拿更多信息。进点时，应先搜二楼下，再搜死点。如果这时还存活，可以到A长椅架链接。</li>
+                    <li>【A1默认乙】开局在A匪口高架上架住A门，防止CT前压，等A1火、A1烟褪去提示【道具位】爆弹，然后等会待【道具位】提示后进点。进点时，应先上匪跳，搜三明治，跳到三明治搜忍者位。如果这时还存活，可以到警亭架警家。</li>
+                    <li>【A2默认】开局任务是慢摸A2，并防止CT前压，等A2烟褪去提示【道具位】爆弹，然后待【道具位】提示后进点。进点时，应先搜二楼上，后应充当补枪手，随两名A1默认进点打补枪。如果下包后还存活可以藏死点或忍者位。</li>
+                </ul>
+            </div>
+        </div>
     </div>
     <a href="index.html" class="back-button">返回目录</a>
 </body>
